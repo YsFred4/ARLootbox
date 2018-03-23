@@ -18,6 +18,6 @@ public class UnityARKitPluginSettings : ScriptableObject {
 	/// Toggles whether ARKit is required for this app: will make app only downloadable by devices with ARKit support if enabled.
 	/// </summary>
 	[Tooltip("Toggles whether ARKit is required for this app: will make app only downloadable by devices with ARKit support if enabled.")]
-	public bool AppRequiresARKit = false;
+	public bool AppRequiresARKit = true;
 
 }
