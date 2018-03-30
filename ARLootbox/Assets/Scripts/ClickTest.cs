@@ -22,8 +22,9 @@ public class ClickTest : MonoBehaviour
         {
             if (hit.collider.gameObject.tag == "MyBox")
             {
-                boxAnimation.SetTrigger("openBox");     
+                boxAnimation.SetBool("openBox", true);
             }
+
         }
     }
 }
