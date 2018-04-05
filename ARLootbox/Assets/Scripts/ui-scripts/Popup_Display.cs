@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour {
+public class Popup_Display : MonoBehaviour {
+
+	public Animator anim;
+	public GameObject reset;
 
 	// Use this for initialization
 	void Start () {
@@ -11,6 +14,11 @@ public class PlayerManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+	}
+
+	void onAnimDone(){
+		Debug.Log ("popup open");
+		reset.SetActive (true);
 	}
 }
