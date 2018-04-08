@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33204249963263996}
   - component: {fileID: 23013799073080254}
   m_Layer: 0
-  m_Name: pirate_goblet
+  m_Name: prize_pirate_goblet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

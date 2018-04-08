@@ -253,6 +253,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114235541296145296, guid: e3bee94a074c278478261856bd6215a1,
+        type: 2}
+      propertyPath: prizeList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4968603779060708, guid: e3bee94a074c278478261856bd6215a1, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -290,6 +295,18 @@ Prefab:
       propertyPath: popup_anim
       value: 
       objectReference: {fileID: 1557477627}
+    - target: {fileID: 114235541296145296, guid: e3bee94a074c278478261856bd6215a1,
+        type: 2}
+      propertyPath: prizeList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1257672950246308, guid: 58beaf91cb1c5d34eaa10bedf5c892c0,
+        type: 2}
+    - target: {fileID: 114235541296145296, guid: e3bee94a074c278478261856bd6215a1,
+        type: 2}
+      propertyPath: prizeList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1749048663943406, guid: 584f21dde13ffc146afcf9d7782b744d,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3bee94a074c278478261856bd6215a1, type: 2}
   m_IsPrefabParent: 0

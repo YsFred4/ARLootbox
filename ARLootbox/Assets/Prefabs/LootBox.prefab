@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 95112992860932152}
   - component: {fileID: 114235541296145296}
   m_Layer: 0
-  m_Name: GiftBox
+  m_Name: LootBox
   m_TagString: MyBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
